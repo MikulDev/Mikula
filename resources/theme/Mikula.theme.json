@@ -1,0 +1,77 @@
+{
+  "name": "Mikula",
+  "author": "Mikul",
+  "dark": true,
+  "editorScheme": "/mikula.xml",
+  "colors":
+  {
+    "bg": "#282828",
+    "darkbg": "#212121",
+    "border": "#3D4045",
+    "selection": "#294975",
+    "defaultButton": "#2E5CB4",
+    "text": "#AFAFAF",
+    "brightText": "#E5E5E5",
+    "darkText": "#787878",
+    "outline": "#AFAFAF"
+  },
+  "ui":
+  {
+    "*":
+    {
+      "background": "bg",
+      "separatorColor": "border",
+      "borderColor": "border"
+    },
+    "List.background": "darkbg",
+    "SidePanel.background": "darkbg",
+    "Panel.background": "bg",
+
+    "ToolWindow.Header": {
+      "background": "darkbg",
+      "borderColor": "bg",
+      "inactiveBackground": "darkbg"
+    },
+
+    "EditorTabs": {
+      "background": "darkbg",
+      "underlinedTabBackground": "border",
+      "borderColor": "bg",
+      "hoverBackground": "bg",
+      "underlinedTabForeground": "brightText"
+    },
+
+    "Button": {
+      "default": {
+        "startBackground": "defaultButton",
+        "endBackground": "defaultButton",
+        "startBorderColor": "defaultButton",
+        "endBorderColor": "defaultButton",
+        "foreground": "brightText",
+        "focusColor": "outline",
+        "focusedBorderColor": "outline"
+      },
+      "foreground": "brightText",
+      "focusedBorderColor": "outline"
+    },
+
+    "Component.focusColor": "outline",
+
+    "Tree.selectionInactiveBackground": "darkbg",
+    "Tree.selectionBackground": "selection",
+
+    "ToolBar.background": "bg",
+
+    "List.hoverInactiveBackground": "bg",
+
+    "Notification.background": "border",
+
+    "CompletionPopup.foreground": "text",
+    "CompletionPopup.selectionBackground": "selection",
+    "CompletionPopup.selectionInactiveBackground": "bg",
+
+    "Label.infoForeground": "darkText",
+
+    "Window.border": "6,6,6,6,282828"
+  }
+}
