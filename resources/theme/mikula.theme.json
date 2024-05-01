@@ -57,7 +57,7 @@
 
     "Component.focusColor": "outline",
 
-    "Tree.selectionInactiveBackground": "darkbg",
+    "Tree.selectionInactiveBackground": "border",
     "Tree.selectionBackground": "selection",
 
     "ToolBar.background": "bg",
